@@ -1,4 +1,4 @@
-# Development Tools
+# Software Architecture
 Below is a sketch of the software packages that make up the micromouse motherboard firmware.
 
 ![Dev Tools](software-architecture.drawio.png)
