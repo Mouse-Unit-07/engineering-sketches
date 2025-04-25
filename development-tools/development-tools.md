@@ -1,7 +1,7 @@
 # Development Tools
 Explanation of all tools used for development.
 
-## Deployment/Dependency Diagram
+## Deployment/Dependency Diagram Between Tools
 ![Dev Tools](development-tools.drawio.png)
 
 1. **Fetch development Docker** image from JFrog Artifactory
@@ -21,7 +21,11 @@ Explanation of all tools used for development.
   - Eliminating crunch time debug sessions
 - We can change anything if we find that we're using the wrong approach
 
+## Tools
+
 ### GitHub Organizations
+- Unifies everything related to development
+
 - **Mouse Unit 07 Kanban**
   - Allows for smaller chunks of development to keep things moving in parallel
   - All tasks laid out and allocated as we each complete tasks
