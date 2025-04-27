@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="e9XtBL2jhPyyOtfbMZeg">
-    <mxGraphModel dx="1228" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1491" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,8 +147,17 @@
         <mxCell id="ZBorQev55Vk7wjFXjuuA-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZBorQev55Vk7wjFXjuuA-14" target="ZBorQev55Vk7wjFXjuuA-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kp-O07dp35pFu7nzHczo-2" value="&lt;b&gt;&lt;u&gt;GitHub Discussions: discussions&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;{meeting notes/agendas and conversations worth saving here}&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=light-dark(#f4b42a, #004400);shape=mxgraph.archimate.application;appType=node;align=center;" vertex="1" parent="1">
+        <mxCell id="kp-O07dp35pFu7nzHczo-2" value="&lt;b&gt;&lt;u&gt;GitHub Discussions: discussions&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;{meeting notes/agendas and conversations worth saving here}&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=light-dark(#f4b42a, #004400);shape=mxgraph.archimate.application;appType=node;align=center;" parent="1" vertex="1">
           <mxGeometry x="105" y="251.5" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OIXbA-q24eOaw1Mk69oV-1" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;u&gt;Discord server&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;{all untracked communication&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=light-dark(#f4b42a, #004400);shape=mxgraph.archimate.application;appType=node;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIXbA-q24eOaw1Mk69oV-2" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;u&gt;YouTube:&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;u&gt;Mouse Unit 07&lt;/u&gt;&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;{store all videos for reference&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=light-dark(#f4b42a, #004400);shape=mxgraph.archimate.application;appType=node;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIXbA-q24eOaw1Mk69oV-3" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;u&gt;Fusion 360&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;{3D models, schematic/PCB development&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=light-dark(#f4b42a, #004400);shape=mxgraph.archimate.application;appType=node;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="710" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
