@@ -21,9 +21,7 @@ Explanation of all tools used for development.
   - Eliminating crunch time debug sessions
 - We can change anything if we find that we're using the wrong approach
 
-## Tools
-
-### GitHub Organizations
+## GitHub Organizations
 - Unifies everything related to development
 
 - **Mouse Unit 07 Kanban**
@@ -41,7 +39,7 @@ Explanation of all tools used for development.
 - **[software] repos**
   - Software project repos
 
-### Tools for Development
+## Tools for Software Development
 - **Docker**
   - Unifies all development tools and environment related changes to a single place
   - Docker container will be the superset of all needed tools and environment settings (to be separated as needed as container gets too bloated of tools and responsibilities)
@@ -72,12 +70,24 @@ Explanation of all tools used for development.
 - **Clang-format**
   - Checks for formatting like tabs, spaces, etc
 
-### Jenkins
-- Checks new source code pushed to GitHub w/ existing package artifacts to let an engineer know whether their new code works w/ all the other existing packages
-- Can run a Docker container identical to development Docker container to run the exact same procedure, but with all existing software packages
+## External Tools
 
-### JFrog Artifactory
-- Stores and centralizes build artifacts (package binaries) and Docker images
-- Also serves as version control
-- Popular build artifact repo choice that supports Conan
-- Nexus is also poular, but requires paid tier for Conan support
+- **Jenkins**
+  - Checks new source code pushed to GitHub w/ existing package artifacts to let an engineer know whether their new code works w/ all the other existing packages
+  - Can run a Docker container identical to development Docker container to run the exact same procedure, but with all existing software packages
+
+- **JFrog Artifactory**
+  - Stores and centralizes build artifacts (package binaries) and Docker images
+  - Also serves as version control
+  - Popular build artifact repo choice that supports Conan
+  - Nexus is also poular, but requires paid tier for Conan support
+
+- **YouTube**
+  - storage for all videos for reference 
+
+- **Discord**
+  - untracked communication
+
+- **Fusion 360**
+  - 3D model development
+  - schematic/PCB development
