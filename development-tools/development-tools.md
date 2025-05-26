@@ -4,14 +4,13 @@ Explanation of all tools used for development.
 ## Deployment/Dependency Diagram Between Tools
 ![Dev Tools](development-tools.drawio.png)
 
-1. **Fetch development Docker** image from JFrog Artifactory
-2. **Fetch source files** from w/in Docker container to begin development
-3. **Fetch software packages** from JFrog Artifactory if needed
-4. After development, **Jenkins responds to pull requests on GitHub**, and invokes Docker container to apply regression tests and build new binaries
-5. Docker container fetches all packages currently on JFrog Artifactory to apply **regression tests** to notify engineer whether existing packages are happy w/ new changes 
-6. **Jenkins stores new binaries on JFrog Artifactory** if source files are verified
-7. Fetch micromouse testing software binary to **run acceptance tests** on micromouse hardware
-8. **Deploy firmware** to micromouse over JTAG
+1. **Fetch source files** to begin development
+2. **Fetch software packages** from JFrog Artifactory if needed for development
+3. After development, **Jenkins responds to pull requests on GitHub**, and host PC's tools to apply regression tests and build new binaries
+4. Jenkins fetches all packages currently on JFrog Artifactory to apply **regression tests** to notify engineer whether existing packages are happy w/ new changes 
+5. **Jenkins stores new binaries on JFrog Artifactory** if source files are verified
+6. Fetch micromouse testing software binary to **run acceptance tests** on micromouse hardware
+7. **Deploy firmware** to micromouse over JTAG
 
 ## Do We Really Need All These Tools?
 - These tools should be solutions to:
@@ -44,6 +43,7 @@ Explanation of all tools used for development.
   - Unifies all development tools and environment related changes to a single place
   - Docker container will be the superset of all needed tools and environment settings (to be separated as needed as container gets too bloated of tools and responsibilities)
   - Great for both development, and automated regression testing
+  - ...Shelved until we migrate to a new MCU that has an associated Linux toolchain
 
 - **Conan**
   - We want to split software up into packages to:
