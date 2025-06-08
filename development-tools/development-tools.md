@@ -5,12 +5,9 @@ Explanation of all tools used for development.
 ![Dev Tools](development-tools.drawio.png)
 
 1. **Fetch source files** to begin development
-2. **Fetch software packages** from JFrog Artifactory if needed for development
-3. After development, **Jenkins responds to pull requests on GitHub**, and host PC's tools to apply regression tests and build new binaries
-4. Jenkins fetches all packages currently on JFrog Artifactory to apply **regression tests** to notify engineer whether existing packages are happy w/ new changes 
-5. **Jenkins stores new binaries on JFrog Artifactory** if source files are verified
-6. Fetch micromouse testing software binary to **run acceptance tests** on micromouse hardware
-7. **Deploy firmware** to micromouse over JTAG
+2. Make source code changes, and upon careful review and building/testing for both MCU/Windows development platform, **push source code changes**
+3. Pull up-to-date source code from GitHub and **build source code to generate binaries**
+4. **Deploy firmware** to micromouse over JTAG
 
 ## Do We Really Need All These Tools?
 - These tools should be solutions to:
@@ -50,6 +47,7 @@ Explanation of all tools used for development.
     - Allow anyone to develop any layer independently via TDD/mocks/fakes
     - Apply modularity to have software that's ready to adapt to change
   - Conan is a modern package manager that works w/ Jenkins, CMake, JFrog Artifactory
+  - ...Shelved until we migrate to a new MCU that has an associated Linux toolchain
 
 - **CMake**
   - Unified build configuration generator- configures and builds projects in place of an IDE
@@ -75,12 +73,14 @@ Explanation of all tools used for development.
 - **Jenkins**
   - Checks new source code pushed to GitHub w/ existing package artifacts to let an engineer know whether their new code works w/ all the other existing packages
   - Can run a Docker container identical to development Docker container to run the exact same procedure, but with all existing software packages
+  - ...Shelved until we migrate to a new MCU that has an associated Linux toolchain
 
 - **JFrog Artifactory**
   - Stores and centralizes build artifacts (package binaries) and Docker images
   - Also serves as version control
   - Popular build artifact repo choice that supports Conan
   - Nexus is also poular, but requires paid tier for Conan support
+  - ...Shelved until we migrate to a new MCU that has an associated Linux toolchain
 
 - **YouTube**
   - storage for all videos for reference 
